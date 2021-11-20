@@ -1,1 +1,0 @@
-document.querySelector('.nav-list').classList.add('active');

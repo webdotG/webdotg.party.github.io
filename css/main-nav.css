@@ -57,17 +57,27 @@
         position: fixed;
         width: 100%;
         min-height: 425px;
-        top: 75px;
-        text-align: center;
-        right: 0;
         padding: 20px 40px;
+        top: 75px;
+        right: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
         box-sizing: border-box;
         background-color: black;
 
     }
 
+    .nav-list__item{
+        width: 200px;
+        height: 45px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
     .nav-list__link {
-        display: block;
         margin: 10px 0;
         color: red;
 
