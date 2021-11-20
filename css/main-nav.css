@@ -18,12 +18,14 @@
     display: flex;
     align-items: center;
     background-color: black;
+    justify-content: space-around;
 }
 
 .nav-list {
     margin-left: auto;
     display: flex;
     align-items: center;
+
 }
 
 .sub-nav-list__item {
