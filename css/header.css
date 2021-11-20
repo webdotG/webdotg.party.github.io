@@ -4,13 +4,13 @@
         width: 100%;
         min-height: 75px;
         position: relative;
-
+        background-color: peachpuff;
     }
 
     .logo {
         display: flex;
         position: absolute;
-        top: 5px;
+        top: 0;
         left: 25px;
     }
 
