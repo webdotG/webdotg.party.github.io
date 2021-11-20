@@ -1,0 +1,6 @@
+@media (min-width:320px) {
+
+    .main-gallery{
+        flex-grow: 2;
+    }
+}

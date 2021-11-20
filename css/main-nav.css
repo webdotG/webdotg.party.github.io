@@ -1,0 +1,16 @@
+@media (min-width: 320px) {
+
+    .main-nav {
+        width: 115px;
+        height: 75px;
+        display: flex;
+        margin-left: auto;
+        background-color: black;
+        align-items: center;
+    }
+
+    .nav-list {
+        display: none;
+    }
+    
+}
