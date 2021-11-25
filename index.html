@@ -38,13 +38,77 @@
             <li class="nav-list__item"><a class="nav-list__link" href="">link</a></li>
         </ul>
     </nav>
-    <ul class="main-gallery">
-        <li><img src="" alt=""></li>
-        <li><img src="" alt=""></li>
-        <li><img src="" alt=""></li>
-        <li><img src="" alt=""></li>
-        <li><img src="" alt=""></li>
-    </ul>
+    <div class="slider-wrapper">
+        <div class="slider">
+            <input type="radio" name="gallery" class="trigger" id="slide-one" checked>
+            <div class="slide">
+                <figure class="slide-figure">
+                    <img class="slide-img" src="img/slide-test.png" height="450px" width="320px">
+                    <figcaption class="slide-caption slide-caption--taped">
+                        <p>lets go</p>
+                    </figcaption>
+                </figure>
+            </div>
+            <input type="radio" name="gallery" class="trigger" id="slide-two">
+            <div class="slide">
+                <figure class="slide-figure">
+                    <img class="slide-img" src="img/slide-test--1.png" height="450px" width="320px">
+                    <figcaption class="slide-caption slide-caption--taped">
+                        <p>skinny girl learn programming</p>
+                    </figcaption>
+                </figure>
+            </div>
+            <input type="radio" name="gallery" class="trigger" id="slide-three">
+            <div class="slide">
+                <figure class="slide-figure">
+                    <img class="slide-img" src="img/slide-test--2.png" height="450px" width="320px">
+                    <figcaption class="slide-caption slide-caption--taped">
+                        <p>boobs and tablet</p>
+                    </figcaption>
+                </figure>
+            </div>
+            <input type="radio" name="gallery" class="trigger" id="slide-four">
+            <div class="slide">
+                <figure class="slide-figure">
+                    <img class="slide-img" src="img/slide-test--1.png" height="450px" width="320px">
+                    <figcaption class="slide-caption slide-caption--taped">
+                        <p>code</p>
+                    </figcaption>
+                </figure>
+            </div>
+            <input type="radio" name="gallery" class="trigger" id="slide-five">
+            <div class="slide">
+                <figure class="slide-figure">
+                    <img class="slide-img" src="img/slide-test--2.png" height="450px" width="320px">
+                    <figcaption class="slide-caption slide-caption--taped">
+                        <p>boobs</p>
+                    </figcaption>
+                </figure>
+            </div>
+        </div>
+        <ul class="slider-nav">
+            <li class="slider-nav__item">
+                <label class="slider-nav__label slider-nav__label--dot slider-nav__label--invert"
+                       for="slide-one"></label>
+            </li>
+            <li class="slider-nav__item">
+                <label class="slider-nav__label slider-nav__label--dot slider-nav__label--invert"
+                       for="slide-two"></label>
+            </li>
+            <li class="slider-nav__item">
+                <label class="slider-nav__label slider-nav__label--dot slider-nav__label--invert"
+                       for="slide-three"></label>
+            </li>
+            <li class="slider-nav__item">
+                <label class="slider-nav__label slider-nav__label--dot slider-nav__label--invert"
+                       for="slide-four"></label>
+            </li>
+            <li class="slider-nav__item">
+                <label class="slider-nav__label slider-nav__label--dot slider-nav__label--invert"
+                       for="slide-five"></label>
+            </li>
+        </ul>
+    </div>
 </header>
 <main>
     <h2>some text</h2>

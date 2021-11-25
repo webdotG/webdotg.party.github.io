@@ -20,5 +20,12 @@
     src: url("/fonts/Raleway-SemiBold.woff2") format("woff2");
 }
 
+h2{
+    font-family: 'Raleway-Black', sans-serif;
+}
+
+body{
+    font-family: 'Raleway-ExtraLight', sans-serif;
+}
 
 
