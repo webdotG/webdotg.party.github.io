@@ -273,8 +273,10 @@ var examples = {
     }
 };
 
-for (var example in examples) {
-    var el = examples[example].el;
-    swipe(el, examples[example].set);
-    el.addEventListener("swipe", examples[example].callback);
-}
+swipe(document.querySelector(`.gallery-wrapper`));
+
+// for (var example in examples) {
+//     var el = examples[example].el;
+//     swipe(el, examples[example].set);
+//     el.addEventListener("swipe", examples[example].callback);
+// }

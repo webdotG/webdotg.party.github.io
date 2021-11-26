@@ -7,5 +7,7 @@ main h1{
     justify-content: center;
     font-family: Raleway-ExtraLight, sans-serif;
     font-size: 50px;
+    border-bottom: 15px solid black;
+    border-top: 15px solid black;
     box-sizing: border-box;
 }
