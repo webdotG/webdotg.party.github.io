@@ -17,6 +17,10 @@
     justify-content: center;
     background-color: white;
     border-bottom: 25px solid black;
+    border-bottom-left-radius: 25px;
+    border-top-left-radius: 25px;
+
+    border-bottom-right-radius: 25px;
 }
 
 .property-list__item h2,

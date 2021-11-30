@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/property-list.css">
     <link rel="stylesheet" href="css/about-list.css">
+    <link rel="stylesheet" href="css/slideShow.css">
 </head>
 <body>
 <header>
@@ -105,7 +106,7 @@
     </div>
 </header>
 <main>
-    <h1>some text</h1>
+    <h1>welcome! __back-red-black-gradient=animation</h1>
     <ul class="property-list">
         <li class="property-list__item">
             <h2>web</h2>
@@ -123,7 +124,6 @@
             <a href="">klick</a>
         </li>
     </ul>
-
     <ul class="about-list">
         <li class="about-list__item">
             <div class="icon"></div>
@@ -161,7 +161,26 @@
 <footer>
     <h2>peace</h2>
     <img src="">
+    <div class="slideshow-container">
+        <img src="img/logo-test.png" alt="slide1">
+        <img src="img/slide-test.png" alt="slide2">
+        <img src="img/slide-test--1.png" alt="slide3">
+        <img src="img/slide-test--2.png" alt="slide4">
+    </div>
 </footer>
+<script>
+    let slideShow = {
+        container: '.slideshow-container',
+        media: [
+            'logo-test.png','slide-test.png','slide-test--1.png',
+            'slide-test--2.png'
+        ],
+        folder: 'img/',
+        autoplay: 'yes',
+        endless: 'yes'
+    }
+</script>
+<script src="js/slideShow.js"></script>
 <script src="js/burger-menu__buttons.js"></script>
 <script src="js/main-nav--swipe.js"></script>
 <script src="js/main-nav.js"></script>

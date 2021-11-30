@@ -8,6 +8,7 @@ main h1{
     font-family: Raleway-ExtraLight, sans-serif;
     font-size: 50px;
     border-bottom: 15px solid black;
-    border-top: 15px solid black;
+    border-top: 15px solid red;
+    border-radius: 40px;
     box-sizing: border-box;
 }

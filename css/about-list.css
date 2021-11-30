@@ -1,6 +1,8 @@
 .about-list{
-    min-width: 320px;
+    min-width: 280px;
     display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .about-list__item{
