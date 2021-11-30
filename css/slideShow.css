@@ -1,3 +1,9 @@
+.slideshow-container{
+    width: 200px;
+    height: 350px;
+    background-color: green;
+    margin: 0 auto;
+}
 .slideShow-info, .slideShow-docs {
     position: absolute;
     padding: 5px 10px;
