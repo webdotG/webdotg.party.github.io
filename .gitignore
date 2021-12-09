@@ -1,1 +1,7 @@
 
+.idea
+
+*.ai
+*.pdf
+
+node_modules/
