@@ -1,7 +1,5 @@
-
 .idea
 
-*.ai
-*.pdf
-
 node_modules/
+
+package-lock.json 
