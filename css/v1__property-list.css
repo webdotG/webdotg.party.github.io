@@ -17,10 +17,18 @@
     justify-content: center;
 }
 
-.property-list__item h2,
-.property-list__item p{
-    margin-right: auto;
-    padding-left: 25px;
+.property-list__item:first-child h2{
+	margin-right: auto;
+	padding-left: 50px;
+	font-family:'Raleway-ExtraLight', sans-serif ;
+	font-size: 30px;
+	font-weight: 100;
+}
+.property-list__item:first-child p{
+ 	padding-top: 10px;
+	margin-right:0 auto;
+	text-align: center;
+	line-height: 25px;
 }
 
 .property-list__item a{
