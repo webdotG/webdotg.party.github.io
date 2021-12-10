@@ -1,12 +1,22 @@
-main h1{
-    width: 100%;
-    min-height: 100px;
-    margin: 0;
-    padding-top: 15px;
+.main-title{
+		min-width: 100PX;
+		min-height: 100px;
+    margin: 0 auto;
+    padding-top: 35px;
     padding-bottom: 15px;
     text-align: center;
     font-family: Raleway-ExtraLight, sans-serif;
     font-size: 35px;
-    border: 10px solid black;
+		font-weight: 400;
     box-sizing: border-box;
+		position: relative;
+}
+
+.main-title::after{
+	content: "";
+	display: inline-block;
+	width: 100px;
+	height: 2px;
+	background-color: black;
+	bottom: -25px;
 }
