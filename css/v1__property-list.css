@@ -14,7 +14,6 @@
 	min-width: 300px;
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
 }
 
@@ -35,11 +34,11 @@
 }
 .property-list__item:nth-child(2n) p{
 	text-align: right;
-	margin-left: auto;
 	padding-right: 25px;
 }
 .property-list__item:nth-child(2n+1) p{
 text-align: left;
+padding-left: 25px;
 }
 
 .property-list__item a{
