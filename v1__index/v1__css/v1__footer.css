@@ -1,0 +1,26 @@
+@media (min-width:320px) {
+
+footer{
+	margin-top: 15px;
+	background-color: black;
+	;
+}
+
+footer ul{
+	padding-top: 25px;
+	padding-bottom: 25px;
+	padding-left: 20px;
+	padding-right: 20px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+footer ul li{
+	min-height: 25px;
+	min-width: 50px;
+	background-color: white;
+	display: flex;
+	align-items: center;
+}
+
+}
