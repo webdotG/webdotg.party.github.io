@@ -1,0 +1,18 @@
+@media (min-width: 320px) {
+
+    header {
+        width: 100%;
+        min-height: 75px;
+        position: relative;
+        background-color: black;
+    }
+
+    .logo {
+        display: flex;
+        position: absolute;
+        top: 0;
+        left: 25px;
+    }
+
+
+}
