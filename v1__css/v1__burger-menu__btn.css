@@ -1,3 +1,4 @@
+@media (min-width:320px) {
 .burger-menu__btn {
     width: 55px;
     height: 55px;
@@ -103,4 +104,5 @@
     transform: rotate(-45deg);
     transition-delay: 100ms;
     background-color: red;
+}
 }

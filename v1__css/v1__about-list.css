@@ -1,3 +1,5 @@
+@media (min-width:320px) {
+
 .about-list{
     min-width: 280px;
     display: flex;
@@ -69,4 +71,5 @@
 .card h4{
     padding-top: 4em;
     padding-bottom: 0.5em;
+}
 }

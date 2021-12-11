@@ -1,4 +1,4 @@
-
+@media (min-width:320px) {
 
 .main-title{
 		min-width: 100PX;
@@ -21,4 +21,5 @@
 	height: 2px;
 	background-color: black;
 	bottom: -25px;
+}
 }

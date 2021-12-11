@@ -1,4 +1,4 @@
-
+@media (min-width:320px) {
 .trigger {
     display: none;
 }
@@ -92,7 +92,7 @@
   opacity: 0.3;
 }
 
-
+}
 
 
 

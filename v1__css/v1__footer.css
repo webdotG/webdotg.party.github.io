@@ -1,3 +1,5 @@
+@media (min-width:320px) {
+
 footer{
 	margin-top: 15px;
 	background-color: black;
@@ -21,3 +23,4 @@ footer ul li{
 	align-items: center;
 }
 
+}
