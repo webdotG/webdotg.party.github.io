@@ -62,3 +62,37 @@
     z-index: 15000;
 }
 }
+
+@media (min-width:640px) {
+	.logo{
+		left: 33px;
+		top: 225px;
+		background-color: whitesmoke;
+	}
+
+	.main-nav button {
+		display: none;
+	}
+
+	.main-nav{
+		min-height: 50px;
+	}
+
+	.nav-list{
+		display: flex;
+		flex-direction: row;
+		min-height: 50px;
+		top: 0;
+		padding: 5px 10px;
+	}
+
+
+
+	
+	.nav-list__link{
+		font-size: 21px;
+		font-family: 'Raleway-Regular', sans-serif;
+		font-weight: 400;
+	}
+
+}
