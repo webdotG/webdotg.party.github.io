@@ -33,7 +33,7 @@
 }
 
 .nav-list__link {
-    padding: 10px 0;
+    padding: 10px 5px;
     color: white;
     text-transform: uppercase;
     font-size: 24px;
@@ -47,7 +47,6 @@
     transform: scale(1.1);
     transition: 0.1s linear;
 }
-
 
 .sub-nav-list {
     display: none;
@@ -86,10 +85,11 @@
 		padding: 5px 10px;
 	}
 
-	
+	.slider-nav__item{
+		padding-bottom: 15px;
+	}	
 	.nav-list__link{
 	border-bottom: white 2px solid;
-	padding: 10px 5px;
 		font-size: 21px;
 		font-family: 'Raleway-Regular', sans-serif;
 		font-weight: 400;
