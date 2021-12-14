@@ -1,11 +1,15 @@
-//let preprocessor='less'; //sass
+const c_sass = require('gulp-sass')(require('sass'));
+const c_less = require ('gulp-less');
+
+const preprocessor = {
+	name: 'less',
+	executor: c_less
+}
 
 const {src, dest, parallel, series, watch} = require ('gulp');
 const c_browserSync = require('browser-sync').create();
 const  c_concat = require('gulp-concat');
 const c_uglify = require('gulp-uglify-es').default;
-const c_sass = require('gulp-sass')(require('sass'));
-const c_less = require ('gulp-less');
 const c_autoprefixer = require('gulp-autoprefixer');
 const c_cleancss = require('gulp-clean-css');
 const del = require('del');
@@ -31,10 +35,10 @@ function scripts(){
 };
 
 function styles(){
-	//return src('app/' + preprocessor + '/main.' + preprocessor + '') 
-		//.pipe(eval(preprocessor)())
- return src('app/sass/main.sass')
- 		.pipe(c_sass())
+	return src('app/' + preprocessor.name + '/main.' + preprocessor.name + '')
+		.pipe(preprocessor.executor())
+// return src('app/sass/main.sass')
+ 		//.pipe(c_sass())
 		.pipe(c_concat('app.min.css'))
 		.pipe(c_autoprefixer({ overrideBrowserslist: ['last 10 version'], grid:true }))
  		.pipe(c_cleancss(( { level:{ 1: { specialComments:0 } } /*, format:'beautify'*/} )))
@@ -80,7 +84,7 @@ function buildcopy(){
 
 function startwatch(){
 	watch('app/**/*.html').on('change', c_browserSync.reload)
-	//watch('app/**/' + preprocessor + '**/*',styles)
+	watch('app/**/' + preprocessor + '**/*',styles)
 	watch('app/sass/*.sass',styles);
 	watch(['app/**/*.js', '!app/**/*min.js'], scripts);
 }
@@ -88,7 +92,7 @@ function startwatch(){
 exports.browsersync = browsersync;
 exports.scripts = scripts;
 exports.styles = styles;
-exports.images = images;
+// exports.images = images;
 
 exports.build = series(cleandist ,styles, scripts, /*images*/ buildcopy)
 
