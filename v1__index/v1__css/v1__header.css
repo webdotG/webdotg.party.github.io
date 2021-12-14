@@ -5,6 +5,7 @@
         min-height: 75px;
         position: relative;
         background-color: black;
+				padding-bottom: 50px;
     }
 
     .logo {

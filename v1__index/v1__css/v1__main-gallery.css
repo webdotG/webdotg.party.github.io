@@ -5,7 +5,7 @@
 
 .gallery-wrapper {
     position: relative;
-    height: 450px;
+    min-height: 450px;
 }
 
 .gallery {
@@ -57,7 +57,7 @@
 		width: 100%;
 		position: absolute;
     display: flex;
-		justify-content: flex-end;
+		justify-content: center;
 		z-index: 7000;
 		bottom: 14px;
 
