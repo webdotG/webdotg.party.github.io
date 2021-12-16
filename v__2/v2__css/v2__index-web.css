@@ -21,6 +21,8 @@
 .skill-list__item{
 	display: flex;
 	justify-content: space-around;
+	padding-top: 15px;
+	padding-bottom: 15px;
 }
 
 .wish-title{
