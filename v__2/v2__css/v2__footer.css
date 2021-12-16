@@ -1,0 +1,29 @@
+@media (min-width:320px){
+	
+  footer{
+	padding-top: 25px;
+	padding-bottom: 15px;
+}
+
+
+	.social-list li{
+		display: flex;
+		justify-content: center;
+		padding-top: 5px;
+		padding-bottom: 5px;
+		margin-top: 5px;
+		margin-bottom: 5px;
+	}
+
+}
+
+
+@media (min-width:640px){
+
+.social-list{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+}
