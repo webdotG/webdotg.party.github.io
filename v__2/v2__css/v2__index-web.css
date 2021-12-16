@@ -1,0 +1,32 @@
+.web__title{
+	margin: 0;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	text-align: center;
+}
+
+.web__paragraph-first{
+	text-align: center;
+}
+
+.web__paragraph-seconde{
+	text-align: center;
+}
+
+.skill-list{
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.skill-list__item{
+	display: flex;
+	justify-content: space-around;
+}
+
+.wish-title{
+	text-align: center;	
+}
+
+.wish-paragraph{
+	text-align: center;
+}
