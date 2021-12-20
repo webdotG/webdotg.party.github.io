@@ -6,6 +6,9 @@
 
 	.main-nav{
 		padding-top: 10px;
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
 	}
 
 	.header-logo{
@@ -16,7 +19,6 @@
 	.main-nav__list{
 		display: flex;
 		justify-content: flex-end;
-		margin-top: -25px;
 		margin-right: 10px;
 	}
 
