@@ -46,3 +46,10 @@
 
 
 }
+
+@media (min-width:960px) {
+
+	.main-nav__link{
+		text-transform: uppercase;
+	}
+}
