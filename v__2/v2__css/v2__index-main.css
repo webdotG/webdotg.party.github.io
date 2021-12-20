@@ -7,12 +7,38 @@
 	}
 
 	.page-list__item{
-		min-width: 200px;
-		min-height: 400px;
+		min-height: 200px;
+		padding-top: 30px;
+		margin: 0 auto;
+		position: relative;
+	}
+
+	.page-list__item::after{
+		content: "";
+		width: 112px;
+		height: 2px;
+		background-color: black;
+		position: absolute;
+		left: 22%;
+		bottom: 3px;
+	}
+
+	.page-list__link{
+		width: 200px;
 		display: flex;
 		flex-direction: column;
 		align-items: center;
-		justify-content: flex-end;
+	}
+
+	.page-list__link h1{
+		margin: 0px;
+		padding: 10px;
+	}
+
+	.page-list__link p{
+		text-align: center;
+		margin: 0;
+		padding: 7px;
 	}
 
 }
