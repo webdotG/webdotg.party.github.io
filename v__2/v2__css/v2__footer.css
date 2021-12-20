@@ -5,6 +5,10 @@
 	padding-bottom: 15px;
 }
 
+	.social-list{
+		display: flex;
+		justify-content: space-around;
+	}
 
 	.social-list li{
 		display: flex;
