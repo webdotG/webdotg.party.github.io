@@ -16,7 +16,7 @@
 		<nav class="main-nav">
 			<a class="header-logo" href="">
 				<svg version="1.1" id="icon__eye" viewBox="0 0 319.202 319.202" width="50px" style="enable-background:new 0 0 319.202 319.202;" xml:space="preserve">
-		 <g>
+			 <g filter="url(#filter)">
 			 <path d="M159.598,67.202c64.159,0,124.796,69.056,143.453,92.405c-18.657,23.342-79.294,92.399-143.453,92.399
 				 c-64.153,0-124.79-69.056-143.447-92.399C34.808,136.259,95.438,67.202,159.598,67.202 M159.598,54.349
 				 C77.668,54.349,3.49,154.716,0,159.504v0.193c3.49,4.788,77.668,105.156,159.598,105.156c81.936,0,156.114-100.368,159.604-105.156
@@ -25,8 +25,25 @@
 				 c-43.96,0-79.596,35.637-79.596,79.596c0,43.966,35.637,79.603,79.596,79.603s79.596-35.637,79.596-79.603
 				 C239.194,115.641,203.557,80.004,159.598,80.004L159.598,80.004z M159.598,126.31c-18.387,0-33.297,14.91-33.297,33.291
 				 c0,18.394,14.904,33.304,33.297,33.304s33.304-14.904,33.304-33.304C192.895,141.214,177.985,126.31,159.598,126.31z"/>
-		 </g>
-		 </svg>
+			 </g>
+				<filter 
+					id="filter" 
+					x="-20%" y="-20%" 
+					width="140%" height="140%" 
+					filterUnits="objectBoundingBox" 
+					primitiveUnits="userSpaceOnUse" 
+					color-interpolation-filters="linearRGB"
+					>
+					<feGaussianBlur 
+					stdDeviation="7 7" 
+					x="0%" y="0%" 
+					width="100%" height="100%" 
+					in="SourceAlpha" 
+					edgeMode="none" 
+					result="blur"
+					/>
+				</filter>
+		 		</svg>
 			</a>
 			<ul class="main-nav__list">
 				<li class="main-nav__item"><a class="main-nav__link" href="v2__web.html">web</a></li>
