@@ -30,6 +30,20 @@
 		align-items: center;
 	}
 
+	.page-list__link--web{
+		padding-top: 100px;
+		padding-bottom: 30px;
+		background-image: url(../v2__img/icon__web--64px.png);
+		background-position-x: center;
+		background-position-y: 0;
+		background-repeat: no-repeat;
+	}
+
+	.page-list__link--web:hover,
+	.page-list__link--web:focus,
+	.page-list__link--web:active{
+background-image: url(../v2__img/icon__web.--64px-blur.png);
+	}
 
 	.page-list__link h1{
 		margin: 0px;
