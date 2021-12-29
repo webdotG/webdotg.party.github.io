@@ -16,15 +16,28 @@ a {
 	color: black;
 }
 
-.svg-wrapper{
-	padding-top: 35px;
-	padding-bottom: 25px;
-	width: 100px;
-	margin: 0 auto;
+
+body {
+  margin: 0;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
-.svg-wrapper__sandbox{
-	padding-top: 25px;
-	padding-bottom: 25px;
-	width: 140px;
-	margin: 0 auto;
+
+header {
+   background: blue;
 }
+
+main {
+  /* Чтобы занимал оставшееся пространство */
+  flex-grow: 1;
+  background: red;
+}
+
+footer {
+  /* Чтобы footer не уменьшался */
+  flex-shrink: 0;
+  background: black;
+}
+<header role="

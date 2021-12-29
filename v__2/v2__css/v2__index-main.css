@@ -119,3 +119,26 @@
 }
 
 }
+
+@media (min-width:960px) {
+
+	.page-list__item{
+		min-height: 0;
+	}
+
+	.page-list__link{
+		width: 250px;
+		min-height: 165px;
+		justify-content: center;
+	}
+
+	.page-list__link--sandbox{
+		background-position-y: -5px;
+	}
+	.page-list__link--photo,
+	.page-list__link--web,
+	.page-list__link--sandbox{
+		padding-top: 75px;
+	}
+
+}
