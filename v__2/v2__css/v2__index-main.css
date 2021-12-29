@@ -19,12 +19,14 @@
 		height: 2px;
 		background-color: black;
 		position: absolute;
-		left: 22%;
+		left: 30%;
 		bottom: 3px;
 	}
 
 	.page-list__link{
 		width: 200px;
+		padding-right: 50px;
+		padding-left: 50px;
 		display: flex;
 		flex-direction: column;
 		align-items: center;

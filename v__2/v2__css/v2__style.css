@@ -25,19 +25,13 @@ body {
   min-height: 100vh;
 }
 
-header {
-   background: blue;
-}
 
 main {
   /* Чтобы занимал оставшееся пространство */
   flex-grow: 1;
-  background: red;
 }
 
 footer {
   /* Чтобы footer не уменьшался */
-  flex-shrink: 0;
-  background: black;
+		flex-shrink: 0;
 }
-<header role="
