@@ -19,6 +19,11 @@
 		margin-bottom: 5px;
 	}
 
+	.social__onlydans--after,
+	.social__pornhub--after{
+	display: none;
+	}
+
 }
 
 
