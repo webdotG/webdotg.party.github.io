@@ -135,12 +135,15 @@
 	}
 
 	.page-list__link--sandbox{
-		background-position-y: -5px;
 	}
 	.page-list__link--photo,
 	.page-list__link--web,
 	.page-list__link--sandbox{
 		padding-top: 75px;
 	}
+	.page-list__item::after{
+		display: none;
+	}
+
 
 }
