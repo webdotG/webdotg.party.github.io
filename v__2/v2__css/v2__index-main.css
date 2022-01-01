@@ -215,9 +215,7 @@
 	transition: background-color .25s, color .25s ease-in-out;
 	text-indent: -99999px;
 	overflow: hidden;
-
 }
-
 
 .slider-nav__label--invert:hover,
 .slider-nav__label--invert:active,

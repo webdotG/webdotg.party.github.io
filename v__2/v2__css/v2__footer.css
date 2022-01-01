@@ -19,12 +19,14 @@
 		margin-bottom: 5px;
 	}
 
-	.social__onlydans--after,
-	.social__pornhub--after{
+	.pornhub__alert--none{
 	display: none;
 	}
 
-
+	.pornhub__alert--show{
+		display: flex;
+	}
+  
 }
 
 
