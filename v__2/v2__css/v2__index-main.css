@@ -108,8 +108,7 @@
 
 	.page-list{
 		flex-direction: row;
-		margin-bottom: 25px;
-	justify-content: space-around;
+	  justify-content: space-around;
 }
 
 .page-list__item{

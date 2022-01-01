@@ -43,25 +43,22 @@
 
 @media (min-width:640px) {
 
-	
-	.main-nav{
-		padding-top: 20px;
-	}
 
 	.header-logo{
 		margin-left: 20px;
 	}
 
+	.main-nav{
+		padding-top: 0;
+	}
+
 	.main-nav__item{
 		margin-right: 20px;
 	}
-
-
-}
-
-@media (min-width:960px) {
-
 	.main-nav__link{
 		text-transform: uppercase;
 	}
+
+
 }
+
