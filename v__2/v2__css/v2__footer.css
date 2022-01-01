@@ -29,10 +29,11 @@
 		position: absolute;
 		width: 248px;
 		height: 125px;
-		background-color: tomato;
+		background-color: rgba(0, 0, 0, 0.7);
 		top: -125px;
 		right: 0px;
 		text-align: center;
+		color: white;
 	}
   
 	.pornhub__alert--show h4{
@@ -66,10 +67,11 @@
 		position: absolute;
 		width: 240px;
 		height: 125px;
-		background-color: blueviolet;
+		background-color: rgba(0, 0, 0, 0.7);
 		top: -125px;
 		left: 0px;
 		text-align: center;
+		color: white;
 	}
 
 	.onlyfans__alert--show h4{
