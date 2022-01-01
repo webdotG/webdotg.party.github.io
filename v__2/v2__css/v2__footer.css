@@ -17,6 +17,7 @@
 		padding-bottom: 5px;
 		margin-top: 5px;
 		margin-bottom: 5px;
+		position: relative;
 	}
 
 	.pornhub__alert--none{
@@ -24,9 +25,37 @@
 	}
 
 	.pornhub__alert--show{
-		display: flex;
+		display: block;
+		position: absolute;
+		width: 225px;
+		height: 125px;
+		background-color: tomato;
+		top: -125px;
+		right: 0px;
+		text-align: center;
 	}
   
+	.pornhub__alert--show h4{
+		text-align: center;
+		margin-top: 10px;
+		margin-bottom: 10px;
+	}
+
+	.pornhub__alert--show p{
+		text-align: center;
+		margin-top: 5px;
+		margin-bottom: 5px;
+	}
+
+	.pornhub__button{
+		width: 45px;
+		height: 35px;
+		margin-top: 10px;
+	}
+
+	.pornhub__button--yes{
+		margin-right: 65px;
+	}
 }
 
 
