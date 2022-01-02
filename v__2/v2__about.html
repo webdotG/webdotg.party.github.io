@@ -7,7 +7,7 @@
 	<link rel="stylesheet" href="../v__2/v2__css/v2__header.css">
 	<link rel="stylesheet" href="../v__2/v2__css/v2__style.css">
 	<link rel="stylesheet" href="../v__2/v2__css/v2__footer.css">
-	<link rel="stylesheet" href="../v__2/v2__css/v2__abot,css">
+	<link rel="stylesheet" href="../v__2/v2__css/v2__abot.css">
 	<title>webDotG</title>
 </head>
 <body>
@@ -24,24 +24,42 @@
 		</nav>
 	</header>
 <main>
-	<div class="svg-wrapper">
+	<!--<div class="svg-wrapper">
 		<svg id="icon__about" viewBox="0 0 128 128" width="100px" stroke="3" xmlns="http://www.w3.org/2000/svg">
 			<path d="M2,128a2,2,0,0,1-1.93-2.53l8.19-30a64,64,0,1,1,24.64,24.5l-30.39,8A1.79,1.79,0,0,1,2,128Zm31.18-12.21a2,2,0,0,1,1,.26,60,60,0,1,0-22-21.9,2,2,0,0,1,.2,1.53l-7.49,27.5,27.83-7.33A2.22,2.22,0,0,1,33.18,115.79Z"/>
 			<path d="M64,46A13,13,0,1,1,77,33,13,13,0,0,1,64,46Zm0-22a9,9,0,1,0,9,9A9,9,0,0,0,64,24Z"/>
 			<path d="M64,108A13,13,0,0,1,51,95V68a13,13,0,0,1,26,0V95A13,13,0,0,1,64,108Zm0-49a9,9,0,0,0-9,9V95a9,9,0,0,0,18,0V68A9,9,0,0,0,64,59Z"/>
 		</svg>
-	</div>
-	<form class="feedback">
-		<input id="name" type="text">
-		<input id="sename" type="text">
-		<input id="email" type="email">
-		<input id="comments" type="text">
-		<label for="name">1</label>
-		<label for="sename">2</label>
-		<label for="email">3</label>
-		<label for="comments">4</label>
-		<button type="submit">click</button>
+	</div>-->
+<section class="modal modal-login">
+	<h2>my office</h2>
+	<p class="modal-description">please login and password</p>
+	<form class="login-form" action="https://echo.webdotg.party" method="post">
+		<p>
+			<label class="visually-hidden" for="login-login">login</label>
+			<input class="login-icon-user" id="login-login" type="email" name="login" placeholder="email@example.com">
+		</p>
+		<p>
+			<label class="visually-hidden" for="login-password">password</label>
+			<input class="login-icon-password" id="login-password" type="password" name="password" placeholder="********">
+		</p>
+		<p class="login-help">
+			<label class="login-checkbox">
+				<input class="vvisually-hidden" type="checkbox" name="remember">
+				<span class="checkbox-indicator"></span>
+				remember me
+			</label>
+			<a class="restore" href="#">i forgot password!</a>
+		</p>
+		<button class="button" type="submit">enter</button>
 	</form>
+	<button class="modal-close" type="button" aria-label="close"></button>
+</section>
+<section class="modal modal-map">
+	<h2 class="visually-hidden">how finde me</h2>
+	<!--map-->
+	<button type="button" aria-label="close"></button>
+</section>
 </main>
 <footer>
 <ul class="social-list">
@@ -85,5 +103,6 @@
 </ul>
 </footer>
 <script src="../v__2/v2__js/pornhub-onlyfans.js"></script>
+<script src="../v__2/v2__js/about-page.js"></script>
 </body>	
 </html>

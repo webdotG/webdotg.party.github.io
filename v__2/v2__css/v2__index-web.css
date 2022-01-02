@@ -23,7 +23,10 @@ grid-template-columns: auto auto auto;
 	margin: 0 auto;
 	padding-top: 15px;
 	padding-bottom: 15px;
+	position: relative;
 }
+
+
 
 .wish-title{
 	text-align: center;	
@@ -32,3 +35,4 @@ grid-template-columns: auto auto auto;
 .wish-paragraph{
 	text-align: center;
 }
+
