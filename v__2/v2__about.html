@@ -31,17 +31,19 @@
 			<path d="M64,108A13,13,0,0,1,51,95V68a13,13,0,0,1,26,0V95A13,13,0,0,1,64,108Zm0-49a9,9,0,0,0-9,9V95a9,9,0,0,0,18,0V68A9,9,0,0,0,64,59Z"/>
 		</svg>
 	</div>-->
-<section class="modal modal-login">
+	<a class="link-modal" href="#">click for modal open</a>
+<section class="modal">
+	<div class="modal-login">
 	<h2>my office</h2>
 	<p class="modal-description">please login and password</p>
 	<form class="login-form" action="https://echo.webdotg.party" method="post">
 		<p>
 			<label class="visually-hidden" for="login-login">login</label>
-			<input class="login-icon-user" id="login-login" type="email" name="login" placeholder="email@example.com">
+			<input class="login-icon-user" id="login-login" type="email" name="login" placeholder="email@example.com" required>
 		</p>
 		<p>
 			<label class="visually-hidden" for="login-password">password</label>
-			<input class="login-icon-password" id="login-password" type="password" name="password" placeholder="********">
+			<input class="login-icon-password" id="login-password" type="password" name="password" placeholder="********" required>
 		</p>
 		<p class="login-help">
 			<label class="login-checkbox">
@@ -54,12 +56,13 @@
 		<button class="button" type="submit">enter</button>
 	</form>
 	<button class="modal-close" type="button" aria-label="close"></button>
+</div>
 </section>
-<section class="modal modal-map">
+<!--<section class="modal modal-map">
 	<h2 class="visually-hidden">how finde me</h2>
-	<!--map-->
+	-map
 	<button type="button" aria-label="close"></button>
-</section>
+</section>-->
 </main>
 <footer>
 <ul class="social-list">
