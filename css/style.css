@@ -19,6 +19,10 @@ a{
 
 @media (min-width:320px) {
 
+.index-navigation__item{
+	display: flex;
+}
+
 	.resp {
 	z-index: 100; 
 	padding-left: 15px;
@@ -87,13 +91,15 @@ a{
  }
 
  .resp__v2{
-	display: block;
+	width: 200px;
 	text-decoration: none;
 	color: black;
-	font-weight: 200;
+	text-align: center;
+	font-weight: 400;
 	font-size: 25px;
 	font-family: sans-serif;
 	padding-left: 35px;
+	padding-right: 35px;
 	padding-top: 25px;
 	padding-bottom: 25px;
 	}
