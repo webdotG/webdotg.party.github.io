@@ -83,6 +83,21 @@
 		font-size: 16.5px;
 	}
 
+	.page-list__link--advice{
+		padding-top: 75px;
+		padding-bottom: 30px;
+		background-image: url(../v2__img/icon__advice--64px.png);
+		background-position-x: center;
+		background-position-y: 0;
+		background-repeat: no-repeat;
+	}
+
+	.page-list__link--advice:hover,
+	.page-list__link--advice:focus,
+	.page-list__link--advice:active{
+		background-image: url(../v2__img/icon__advice--64px-blur.png);
+		font-size: 16.5px;
+	}
 
 	.page-list__link h1{
 		margin: 0px;
