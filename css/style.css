@@ -114,9 +114,9 @@ a{
 	}
 
 	.warning--show{
+		display: flex;
 		width: 200px;
 		margin: 0 auto;
-		display: flex;
 		flex-direction: column;
 		position: relative;
 		border: 5px solid black;
