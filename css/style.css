@@ -98,6 +98,11 @@ a{
 	padding-bottom: 25px;
 	}
 	
+	.index-navigation__item{
+		margin-top: 7px;
+		margin-bottom: 25px;
+	}
+
 	.warning{
 		display: none;
 	}
@@ -111,9 +116,18 @@ a{
 		border: 5px solid black;
 	}
 
+	.warning--show::before{
+		content: "";
+		position: absolute;
+		top: -51px;
+		left: 8px;
+		border: 18px solid transparent; 
+		border-bottom: 29px solid black;
+	}
 .warning__close{
 	position: absolute;
 	right: 0;
+	top: -1px;
 	width: 27px;
 	height: 27px;
 	background-color:rgb(182, 21, 0);
