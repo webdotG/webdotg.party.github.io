@@ -1,4 +1,6 @@
 body{
+	margin: 0;
+	padding: 0;
 	width: 100%;
 	height: 100%;
  }
@@ -9,7 +11,15 @@ ul{
 	list-style: none;
 }
 
-.resp {
+a{
+	text-decoration: none;
+	color: #000;
+}
+
+
+@media (min-width:320px) {
+
+	.resp {
 	z-index: 100; 
 	padding-left: 15px;
 	color: black;
@@ -22,6 +32,7 @@ ul{
 	line-height: 25px;
 	opacity: 1;
  }
+
 .resp:hover,
 .resp:active,
 .resp:focus{
@@ -72,7 +83,7 @@ ul{
 .line:active,
 .line:focus{
 	opacity: 0;
-	transition: opacity: 0.2s ease-in-out;
+	transition: opacity 0.2s ease-in-out;
  }
 
  .resp__v2{
@@ -87,3 +98,56 @@ ul{
 	padding-bottom: 25px;
 	}
 	
+	.warning{
+		display: none;
+	}
+
+	.warning--show{
+		width: 200px;
+		margin: 0 auto;
+		display: flex;
+		flex-direction: column;
+		position: relative;
+		border: 5px solid black;
+	}
+
+.warning__close{
+	position: absolute;
+	right: 0;
+	width: 27px;
+	height: 27px;
+	background-color:rgb(182, 21, 0);
+	border: 0;
+	cursor: pointer;
+}
+
+.warning__close::before,
+.warning__close::after{
+	content: "";
+	position: absolute;
+	top: 10px;
+	left: 1px;
+	width: 27px;
+	height: 4px;
+	background-color: black;
+}
+.warning__close::before{
+	transform: rotate(45deg);
+}
+.warning__close::after{
+	transform: rotate(-45deg);
+}
+
+	.warning__title{
+		margin-top: 6px;
+		margin-bottom: 0;
+		font-family: sans-serif;
+		font-size: 25px;
+		line-height: 33px;
+		text-align: center;
+		text-transform: uppercase;
+	}
+
+
+
+}
