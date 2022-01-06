@@ -2,8 +2,8 @@ const c_sass = require('gulp-sass')(require('sass'));
 const c_less = require ('gulp-less');
 
 const preprocessor = {
-	name: 'less',
-	executor: c_less
+	name: 'sass',
+	executor: c_sass
 }
 
 const {src, dest, parallel, series, watch} = require ('gulp');
@@ -37,36 +37,14 @@ function scripts(){
 function styles(){
 	return src('app/' + preprocessor.name + '/main.' + preprocessor.name + '')
 		.pipe(preprocessor.executor())
-// return src('app/sass/main.sass')
+		// return src('app/sass/main.sass')
  		//.pipe(c_sass())
 		.pipe(c_concat('app.min.css'))
 		.pipe(c_autoprefixer({ overrideBrowserslist: ['last 10 version'], grid:true }))
- 		.pipe(c_cleancss(( { level:{ 1: { specialComments:0 } } /*, format:'beautify'*/} )))
+ 		.pipe(c_cleancss(( { level:{ 1: { specialComments:0 } } , format:'beautify'} )))
 		.pipe(dest('app/css'))
 		.pipe(c_browserSync.stream())
 };
-
-//const с_compressing = require('compress-images');
-//async function images() {
-	//с_compressing(
-		//"app/images/src/**/*", // Берём все изображения из папки источника
-		//"app/images/dest/", // Выгружаем оптимизированные изображения в папку назначения
-		//{ compress_force: false, statistic: true, autoupdate: true }, false, // Настраиваем основные параметры
-		//{ jpg: { engine: "mozjpeg", command: ["-quality", "75"] } }, // Сжимаем и оптимизируем изображеня
-		//{ png: { engine: "pngquant", command: ["--quality=75-100", "-o"] } },
-		//{ svg: { engine: "svgo", command: "--multipass" } },
-		//{ gif: { engine: "gifsicle", command: ["--colors", "64", "--use-col=web"] } },
-		//function (err, completed) { // Обновляем страницу по завершению
-			//if (completed === true) {
-				//browserSync.reload()
-			//}
-		//}
-	//)
-//}
-//function cleanimg() {
-	//return del('app/images/dest/**/*', { force: true }) // Удаляем все содержимое папки "app/images/dest/"
-//}
-
 
 function cleandist(){
 	return del('dist/**/*', {force:true})
