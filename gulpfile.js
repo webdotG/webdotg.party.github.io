@@ -15,6 +15,32 @@ const c_cleancss = require('gulp-clean-css');
 const del = require('del');
 
 
+const imagemin = require('gulp-imagemin');
+function images () {
+	gulp.src('./img/*')
+		.pipe(imagemin(
+			[
+				gifsicle({interlaced: true}),
+				mozjpeg({quality: 75, progressive: true}),
+				optipng({optimizationLevel: 5}),
+				svgo({
+					plugins: [
+						{
+							name: 'removeViewBox',
+							active: true
+						},
+						{
+							name: 'cleanupIDs',
+							active: false
+						}
+					]
+				})
+			]
+		))
+		.pipe(gulp.dest('./img-compress'))
+	};
+
+
 function browsersync() {
     c_browserSync.init({
         server:{ baseDir:'app/' },
