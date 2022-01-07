@@ -13,3 +13,11 @@ warningClose.addEventListener("click", function(evt){
 	evt.preventDefault();
 	warningBlock.classList.remove("warning--show");
 })
+
+firstVersion.addEventListener(`click`,  (e) => {
+	event.stopPropagation()
+})
+
+document.addEventListener(`click`, (e) => {
+	warningBlock.classList.remove("warning--show");
+})
