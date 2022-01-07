@@ -124,6 +124,7 @@ a{
 		display: flex;
 		width: 200px;
 		margin: 0 auto;
+		margin-left: -5px;
 		flex-direction: column;
 		position: relative;
 		border: 5px solid black;
