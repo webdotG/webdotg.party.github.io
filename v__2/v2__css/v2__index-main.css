@@ -84,7 +84,7 @@
 	}
 
 	.page-list__link--advice{
-		padding-top: 75px;
+		padding-top: 100px;
 		padding-bottom: 30px;
 		background-image: url(../v2__img/icon__advice--64px.png);
 		background-position-x: center;
@@ -345,7 +345,8 @@ opacity: 0.3;
 
 	.page-list__link--photo,
 	.page-list__link--web,
-	.page-list__link--sandbox{
+	.page-list__link--sandbox,
+	.page-list__link--advice{
 		padding-top: 75px;
 	}		
 	
