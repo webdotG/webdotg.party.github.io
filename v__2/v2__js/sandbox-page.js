@@ -1,6 +1,15 @@
-const buttonSubmit = document.querySelector(".form__submit");
-const formWrapper = document.querySelector(".form__wrapper")
-buttonSubmit.addEventListener("click", function (evt){
-	evt.preventDefault();
-formWrapper.classList.add("form__wrapper--none");
-});
+const shareOrReadIdeas = document.querySelector(".idea-link__share")
+
+
+
+const formRegistrWrapper = document.querySelector(".form__wrapper");
+
+
+
+
+
+//const formRegistrSubmit = document.querySelector(".form__submit");
+//formRegistrSubmit.addEventListener("click", function (evt){
+//	evt.preventDefault();
+//	formRegistrWrapper.classList.add("form__wrapper--none");
+//});

@@ -94,14 +94,14 @@
 
   /*sanbox example*/
 
-	.post-example--wrapper{
+	.post-example__wrapper{
 		width: 320px;
 		min-height: 150px;
 		margin: 0 auto;
 		margin-top: 25px;
 		position: relative;
 	}
-	.post-example--wrapper h2{
+	.post-example__wrapper h2{
 		text-align: center;
 	}
 	.post-example{
@@ -181,8 +181,6 @@
 
 }
 
-
-
-.form__wrapper--none{
+.display--none{
 	display: none;
 }
