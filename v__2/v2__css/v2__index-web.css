@@ -1,18 +1,21 @@
-.web__title{
+.web__about-title{
+	text-align: center;
+}
+
+.web__case-title,
+.web__wish-title{
+padding-left: 26px;
+}
+
+.web__about-paragraph{
 	margin: 0;
-	padding-top: 15px;
-	padding-bottom: 15px;
 	text-align: center;
 }
-
-.web__paragraph-first{
-	text-align: center;
+.web__case-paragraph,
+.web__wish-paragraph{
+	text-align: right;
+	padding-right: 26px;
 }
-
-.web__paragraph-seconde{
-	text-align: center;
-}
-
 .skill-list{
 display: grid;
 grid-template-columns: auto auto auto;
