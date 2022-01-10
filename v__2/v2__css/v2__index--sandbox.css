@@ -95,7 +95,6 @@
 		min-height: 150px;
 		margin: 0 auto;
 		margin-top: 25px;
-		border: 3px dotted black;
 	}
 	.post-example--wrapper h2{
 		text-align: center;
@@ -105,7 +104,9 @@
 		min-height: 100px;
 		margin: 0 auto;
 		margin-bottom: 15px;
+		border: 3px dotted black;
 	}
+
 
 	.user-data__wrapper{
 		padding-top: 15px ;
@@ -115,14 +116,6 @@
 		justify-content:space-around;
 		position: relative;
 	}
-	/*.user-data__wrapper::after{
-		content: "";
-		position: absolute;
-		width: 260px;
-		height: 2px;
-		background-color: black;
-		bottom: 0;
-	}*/
 	.user-avatar{
 		border: 1px dotted black;
 	}
@@ -134,9 +127,10 @@
 	}
 	
 	.idea-content__wrapper{
-		padding-left: 25px;
-		padding-right: 25px;
-		padding-bottom: 25px;
+		padding-left: 15px;
+		padding-right: 15px;
+		padding-bottom: 15px;
+		width: 270px;
 	}
 	.idea-content__title{
 		margin: 0;
@@ -144,14 +138,30 @@
 		font-size: 28px;
 	}
 
+	.idea-content__content{
+		margin: 0;
+		padding-top: 10px;
+		padding-bottom: 10px;
+	}
+
+	/*.idea-content__read-more{
+		display: block;
+		width: 125px;
+		height: 25px;
+		margin-left: auto;
+		margin-right: 10px;
+	}
+	*/
 	.post-cooperation__wrapper{
 		padding-left: 25px;
 		padding-right: 25px;
 		padding-bottom: 25px;
+		display: flex;
+		justify-content: flex-end;
 	}
 
-	.post-cooperation__share{
-		margin-left: 25px;
+	.post-cooperation__comments{
+		margin-left: 15px;
 	}
 	
 
