@@ -10,11 +10,14 @@ padding-left: 26px;
 .web__about-paragraph{
 	margin: 0;
 	text-align: center;
+	padding-right: 26px;
+	padding-left: 25px;
 }
 .web__case-paragraph,
 .web__wish-paragraph{
 	text-align: right;
 	padding-right: 26px;
+	padding-left: 25px;
 }
 .skill-list{
 display: grid;
