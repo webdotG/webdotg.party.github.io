@@ -9,6 +9,7 @@
 	<link rel="stylesheet" href="../css/header.css">
 	<link rel="stylesheet" href="../css/style.css">
 	<link rel="stylesheet" href="../css/index-page.css">
+	<link rel="stylesheet" href="../css/slider.css">
 	<link rel="stylesheet" href="../css/footer.css">
 </head>
 <body>
@@ -58,53 +59,8 @@
 			</a>
 		</li>
 	</ul>
-	<div class="gallery-wrapper">
-		<input type="radio" name="gallery" class="trigger" id="slide-one" checked>
-		<div class="gallery">
-				<figure class="gallery__figure">
-						<img class="gallery__img" src="#" height="450px" width="550px">
-						<figcaption class="gallery__caption gallery__caption--taped">
-								<p>lets go</p>
-						</figcaption>
-				</figure>
-		</div>
-		<input type="radio" name="gallery" class="trigger" id="slide-two">
-		<div class="gallery">
-				<figure class="gallery__figure">
-						<img class="gallery__img" src="#" height="450px" width="550px">
-						<figcaption class="gallery__caption gallery__caption--taped">
-								<p>skinny boobs girl learn programming</p>
-						</figcaption>
-				</figure>
-		</div>
-		<input type="radio" name="gallery" class="trigger" id="slide-three">
-		<div class="gallery">
-				<figure class="gallery__figure">
-						<img class="gallery__img" src="#" height="450px" width="550px">
-						<figcaption class="gallery__caption gallery__caption--taped">
-								<p>finger/boobs&<code>body{ margin:0;}</code></p>
-						</figcaption>
-				</figure>
-		</div>
-		<input type="radio" name="gallery" class="trigger" id="slide-four">
-		<div class="gallery">
-				<figure class="gallery__figure">
-						<img class="gallery__img" src="#" height="450px" width="550px">
-						<figcaption class="gallery__caption gallery__caption--taped">
-								<code>.some-code__example--img{need img!}</code>
-						</figcaption>
-				</figure>
-		</div>
-		<input type="radio" name="gallery" class="trigger" id="slide-five">
-		<div class="gallery">
-				<figure class="gallery__figure">
-						<img class="gallery__img" src="#" height="450px" width="550px">
-						<figcaption class="gallery__caption gallery__caption--taped">
-								<p>boobs</p>
-						</figcaption>
-				</figure>
-		</div>
-		<ul class="slider-nav">
+		<div class="slider-wrapper">
+		<ul class="slider-list">
 				<li class="slider-nav__item">
 						<label class="slider-nav__label  slider-nav__label--invert"
 									 for="slide-one"></label>
@@ -126,6 +82,18 @@
 									 for="slide-five"></label>
 				</li>
 		</ul>
+	<div class="slider-paginator__wrapper">
+		<button class="slider-paginator active"></button>
+		<button class="slider-paginator"></button>
+		<button class="slider-paginator"></button>
+		<button class="slider-paginator"></button>
+		<button class="slider-paginator"></button>
+	</div>
+	<div class="slider-button">
+		<button id="slider-button__prev"></button>
+		<button id="slider-button__next"></button>
+	</div>
+</div>
 </div>
 </main>
 <footer>
@@ -170,5 +138,6 @@
 </ul>
 </footer>
 <script src="js/pornhub-onlyfans.js"></script>
+<script src="js/slider.js"></script>
 </body>
 </html>
