@@ -97,11 +97,46 @@
 		display: block;
 	}
 
-	.main-nav__item--active{
-		
+	.main-nav__item--active-web::before{
+		content: "";
+		width: 42px;
+		height: 2px;
+		background-color: black;
+		position: absolute;
+		bottom: 3px;
+		left: 0;
 	}
 
+	.main-nav__item--active-photo::before{
+		content: "";
+		width: 53px;
+		height: 2px;
+		background-color: black;
+		position: absolute;
+		bottom: 3px;
+		left: 0;
+	}
+	.main-nav__item--active-sandbox::before{
+		content: "";
+		width: 75px;
+		height: 2px;
+		background-color: black;
+		position: absolute;
+		bottom: 3px;
+		left: 0;
+	}
+
+	.main-nav__item--active-advice::before{
+		content: "";
+		width: 60px;
+		height: 2px;
+		background-color: black;
+		position: absolute;
+		bottom: 3px;
+		left: 0;
+	}
 }
+
 
 @media (min-width:640px) {
 
@@ -143,5 +178,20 @@
 		display: block;
 		width: 74px;
 	}
+
+	.main-nav__item--active-web::before{
+		width: 50px;
+	}
+	.main-nav__item--active-photo::before{
+		width: 71px;
+	}
+	.main-nav__item--active-sandbox::before{
+		width: 94px;
+	}
+	.main-nav__item--active-advice::before{
+		width: 74px;
+	}
+
+
 }
 
