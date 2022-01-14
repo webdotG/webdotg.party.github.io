@@ -38,7 +38,7 @@
 	.page-list__link--web{
 		padding-top: 100px;
 		padding-bottom: 30px;
-		background-image: url(../v2__img/icon__web--64px.png);
+		background-image: url(../img/icon__web--64px.png);
 		background-position-x: center;
 		background-position-y: 0;
 		background-repeat: no-repeat;
@@ -47,14 +47,14 @@
 	.page-list__link--web:hover,
 	.page-list__link--web:focus,
 	.page-list__link--web:active{
-	background-image: url(../v2__img/icon__web.--64px-blur.png);
+	background-image: url(../img/icon__web.--64px-blur.png);
 	font-size: 16.5px;
 }
 
 	.page-list__link--photo{
 		padding-top: 100px;
 		padding-bottom: 30px;
-		background-image: url(../v2__img/icon__photocamera--64px.png);
+		background-image: url(../img/icon__photocamera--64px.png);
 		background-position-x: center;
 		background-position-y: 0;
 		background-repeat: no-repeat;
@@ -63,14 +63,14 @@
 	.page-list__link--photo:hover,
 	.page-list__link--photo:focus,
 	.page-list__link--photo:active{
-	background-image: url(../v2__img/icon__photocamera--64px--blur.png);
+	background-image: url(../img/icon__photocamera--64px--blur.png);
 	font-size: 16.5px;
 }
 
 	.page-list__link--sandbox{
 		padding-top: 100px;
 		padding-bottom: 30px;
-		background-image: url(../v2__img/icon__sandbox--64px.png);
+		background-image: url(../img/icon__sandbox--64px.png);
 		background-position-x: center;
 		background-position-y: 0;
 		background-repeat: no-repeat;
@@ -79,14 +79,14 @@
 	.page-list__link--sandbox:hover,
 	.page-list__link--sandbox:focus,
 	.page-list__link--sandbox:active{
-		background-image: url(../v2__img/ico__sandbox--64px-blur.png);
+		background-image: url(../img/ico__sandbox--64px-blur.png);
 		font-size: 16.5px;
 	}
 
 	.page-list__link--advice{
 		padding-top: 100px;
 		padding-bottom: 30px;
-		background-image: url(../v2__img/icon__advice--64px.png);
+		background-image: url(../img/icon__advice--64px.png);
 		background-position-x: center;
 		background-position-y: 0;
 		background-repeat: no-repeat;
@@ -95,7 +95,7 @@
 	.page-list__link--advice:hover,
 	.page-list__link--advice:focus,
 	.page-list__link--advice:active{
-		background-image: url(../v2__img/icon__advice--64px-blur.png);
+		background-image: url(../img/icon__advice--64px-blur.png);
 		font-size: 16.5px;
 	}
 

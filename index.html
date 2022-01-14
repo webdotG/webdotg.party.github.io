@@ -1,51 +1,176 @@
+<!--marcomarino.design/project.html-->
 <!DOCTYPE html>
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<!--seo test-->
-	<meta name="description" content="блог о том как создать сайт и снимать эротические фотографии"><!--виден-->	
-	<meta name="keywords" content="html, css, js, webdeveloper, photography"><!--не виден-->	
-	<title>webDotG умеет создавать сайты и снимать эротические фотографии<!--seo test--></title>
-	<!--seo test-->
-	<link rel="stylesheet"  href="css/style.css">
+	<title>webDotG</title>
+	<link rel="stylesheet" href="../css/header.css">
+	<link rel="stylesheet" href="../css/style.css">
+	<link rel="stylesheet" href="../css/index-page.css">
+	<link rel="stylesheet" href="../css/footer.css">
 </head>
 <body>
-	<div class="index-navigation__wrapper">
-	<div class="line">
-		<div class="line__color"></div>
-	</div>
-	<navigation class="index-navigation">
-		<ul class="index-navigation__list">
-			<li class="index-navigation__item"><a class="resp" href="v1__index/first_version.html" >first version</a></li>
-			<li class="index-navigation__item">
-				<div class="warning">
-					<button class="warning__close" aria-label="close window"></button>
-					<h1 class="warning__title">this is
-						<br>old version
-						<br>of the site
-					</h1>
-					<p class="warning__paragraph--first">please</p>
-					<p class="warning__paragraph--seconde">visit the second version
-						<br>of the site
-					</p>
-					<ul class="warning-list">
-						<li class="warning-list__item--good"><a class="warning-list__link--good" href="v__2/v2__index.html">good
-							<p class="link-good__paragraph">view in the new version</p>
-						</a></li>
-						<li class="warning-list__item--no"><a class="warning-list__link--no" href="v1__index/first_version.html">
-							NO
-							<br>I'm very interested to see
-							<br>what happened before</a></li>
-					</ul>
-				</div>
-			</li>
-			<li class="index-navigation__item"><a class="resp__v2" href="v__2/v2__index.html">second version</a></li>
+	<header>
+		<nav class="main-nav">
+			<a class="header-logo" href="#">
+			</a>
+			<ul class="main-nav__list">
+				<li class="main-nav__item"><a class="main-nav__link" href="web.html">web</a></li>
+				<li class="main-nav__item"><a class="main-nav__link" href="photo.html">photo</a></li>
+				<li class="main-nav__item"><a class="main-nav__link" href="sandbox.html">sandbox</a></li>
+				<li class="main-nav__item"><a class="main-nav__link" href="advice.html">advice</a></li>
+			</ul>
+		</nav>
+	</header>
+	<main>
+		<h1 class="progress-title">development in progress</h1>
+		<ul class="page-list">
+		<li class="page-list__item">
+			<a class="page-list__link page-list__link--web" href="../web.html">
+				<h1>web</h1>
+				<p>what I can
+					<br>and know</p>
+			</a>
+		</li>
+		<li class="page-list__item">
+			<a class="page-list__link page-list__link--photo" href="../photo.html">
+				<h1>photo</h1>
+				<p>feelings and
+					<br>naked people
+				</p>
+			</a>
+		</li>
+		<li class="page-list__item">
+			<a class="page-list__link page-list__link--sandbox" href="../sandbox.html">
+			
+				<h1>sandbox</h1>
+				<p>here you can get acquainted
+					<br>and share ideas
+				</p>
+			</a>
+		</li>
+		<li class="page-list__item">
+			<a class="page-list__link page-list__link--advice" href="../advice.html">
+					<h1>advice</h1>
+					<p>leave your free advice here
+					<br>or tell us how to live
+				</p>
+			</a>
+		</li>
+	</ul>
+	<div class="gallery-wrapper">
+		<input type="radio" name="gallery" class="trigger" id="slide-one" checked>
+		<div class="gallery">
+				<figure class="gallery__figure">
+						<img class="gallery__img" src="img/slide-test.png" height="450px" width="320px">
+						<figcaption class="gallery__caption gallery__caption--taped">
+								<p>lets go</p>
+						</figcaption>
+				</figure>
+		</div>
+		<input type="radio" name="gallery" class="trigger" id="slide-two">
+		<div class="gallery">
+				<figure class="gallery__figure">
+						<img class="gallery__img" src="img/slide-test--2.png" height="450px" width="320px">
+						<figcaption class="gallery__caption gallery__caption--taped">
+								<p>skinny boobs girl learn programming</p>
+						</figcaption>
+				</figure>
+		</div>
+		<input type="radio" name="gallery" class="trigger" id="slide-three">
+		<div class="gallery">
+				<figure class="gallery__figure">
+						<img class="gallery__img" src="img/slide-test--1.png" height="450px" width="320px">
+						<figcaption class="gallery__caption gallery__caption--taped">
+								<p>finger/boobs&<code>body{ margin:0;}</code></p>
+						</figcaption>
+				</figure>
+		</div>
+		<input type="radio" name="gallery" class="trigger" id="slide-four">
+		<div class="gallery">
+				<figure class="gallery__figure">
+						<img class="gallery__img" src="img/slide-test--2.png" height="450px" width="320px">
+						<figcaption class="gallery__caption gallery__caption--taped">
+								<code>.some-code__example--img{need img!}</code>
+						</figcaption>
+				</figure>
+		</div>
+		<input type="radio" name="gallery" class="trigger" id="slide-five">
+		<div class="gallery">
+				<figure class="gallery__figure">
+						<img class="gallery__img" src="img/slide-test--1.png" height="450px" width="320px">
+						<figcaption class="gallery__caption gallery__caption--taped">
+								<p>boobs</p>
+						</figcaption>
+				</figure>
+		</div>
+		<ul class="slider-nav">
+				<li class="slider-nav__item">
+						<label class="slider-nav__label  slider-nav__label--invert"
+									 for="slide-one"></label>
+				</li>
+				<li class="slider-nav__item">
+						<label class="slider-nav__label  slider-nav__label--invert"
+									 for="slide-two"></label>
+				</li>
+				<li class="slider-nav__item">
+						<label class="slider-nav__label  slider-nav__label--invert"
+									 for="slide-three"></label>
+				</li>
+				<li class="slider-nav__item">
+						<label class="slider-nav__label  slider-nav__label--invert"
+									 for="slide-four"></label>
+				</li>
+				<li class="slider-nav__item">
+						<label class="slider-nav__label  slider-nav__label--invert"
+									 for="slide-five"></label>
+				</li>
 		</ul>
-	</navigation>
 </div>
-<script src="warning.js"></script>
-<script src="stopPropagation.js"></script>
+</main>
+<footer>
+<ul class="social-list">
+	<li class="social__item">
+		<a class="onlyfans__link"  href="">
+			<img src="../img/icon__onlyfans.svg" alt="icon-telegram" height="30px">
+		</a>
+		<div class="onlyfans__alert--none">
+			<h4>siriasli</h4>
+	    <p>link in private message</p>
+			<button class="onlyfans__button onlyfans__button--yes"><img alt="хочу смотреть твой онлифанс"></button><!--seo test ALT-->
+			<button class="onlyfans__button onlyfans__button--no"><img alt="не хочу смотреть твой онлифанс"></button><!--seo test ALT-->
+		</div>
+	</li>
+	<li>
+		<a href="">
+			<img src="../img/icon__insta.svg" alt="icon-instagram" height="30px">
+		</a>
+	</li>
+	<li>
+		<a href="">
+			<img src="../img/icon__telega.svg" alt="icon-telegram" height="30px">
+		</a>
+	</li>
+	<li>
+		<a href="">
+			<img src="../img/icon__github.svg" alt="icon-github" height="30px">
+		</a>
+	</li>
+	<li class="social__item">
+		<a class="pornhub__link" href="#">
+			<img src="../img/icon__pornohub.svg" alt="icon-pornhub" height="30px">
+		</a>
+		<div class="pornhub__alert--none">
+			<h4>siriasli</h4>
+	    <p>link in private message</p>
+			<button class="pornhub__button pornhub__button--yes"><img alt="хочу смотреть твой порнхаб"></button><!--seo test ALT-->
+			<button class="pornhub__button pornhub__button--no"><img alt="не хочу смотреть твой порнхаб"></button><!--seo test ALT-->
+		</div>
+	</li>
+</ul>
+</footer>
+<script src="../js/pornhub-onlyfans.js"></script>
 </body>
 </html>

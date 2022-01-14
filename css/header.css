@@ -15,14 +15,14 @@
 		width: 64px;
 		height: 64px;
 		padding-left: 10px;
-		background-image: url(../v2__img/icon__eye--64px.png);
+		background-image: url(../img/icon__eye--64px.png);
 		background-position: center;
 		background-repeat: no-repeat;
 	}
 	.header-logo:hover,
 	.header-logo:focus,
 	.header-logo:active{
-		background-image: url(../v2__img/icon__eye--64px-blur.png);
+		background-image: url(../img/icon__eye--64px-blur.png);
 	}
 
 
