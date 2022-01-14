@@ -44,7 +44,7 @@ function startwatch(){
 }
 
 function images(){
-	return src('/img/**/*')
+	return src('../img/img__red/**/*')
 	.pipe(imagemin(
 		[
 			imagemin.gifsicle({interlaced: true}),
@@ -58,7 +58,7 @@ function images(){
 			})
 		]
 	))
-	.pipe(dest('/min.images'))
+	.pipe(dest('../img/min.img'))
 }
 
  function build() {
