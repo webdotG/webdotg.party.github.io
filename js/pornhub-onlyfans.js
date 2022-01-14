@@ -8,18 +8,36 @@ const onlyfansClose=document.querySelector(".onlyfans__button--no")
 pornhub.addEventListener("click", function (evt){
 	evt.preventDefault();
 	pornhubShow.classList.add("pornhub__alert--show");
-});
+})
+
+pornhub.addEventListener(`click`,  (e) => {
+	event.stopPropagation()
+})
+
+document.addEventListener(`click`, (e) => {
+	pornhubShow.classList.remove("pornhub__alert--show");
+})
 
 pornhubClose.addEventListener("click", function (evt){
 	evt.preventDefault();
   pornhubShow.classList.remove("pornhub__alert--show");
 })
+
 onlyfans.addEventListener("click", function (evt){
 	evt.preventDefault();
 	onlyfansShow.classList.add("onlyfans__alert--show");
-});
+})
+
+onlyfans.addEventListener(`click`,  (e) => {
+	event.stopPropagation()
+})
+
+document.addEventListener(`click`, (e) => {
+	onlyfansShow.classList.remove("onlyfans__alert--show");
+})
 
 onlyfansClose.addEventListener("click", function (evt){
 	evt.preventDefault();
   onlyfansShow.classList.remove("onlyfans__alert--show");
 })
+
