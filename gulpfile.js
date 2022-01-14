@@ -10,7 +10,7 @@ const imagemin = require('gulp-imagemin');
 
 function browsersync (){
 	browserSync.init({
-		server:{ baseDir: 'app/' },
+		server:{ baseDir: '' },
 		notify: false,
 		online:false
 	})
@@ -20,31 +20,31 @@ function scripts(){
 			'node_modules/jquery/dist/jquery.min.js',
 			'app/js/app.js',
 	])
-			.pipe(concat('app.min.js'))
+			.pipe(concat('min.js'))
 			.pipe(uglify()) 
-			.pipe(dest('app/js'))
+			.pipe(dest('/min.js'))
 			.pipe(browserSync.stream())
 };
 
 function styles(){
-	return src('app/sass/*.sass')
+	return src('/css/**/*')
 	.pipe(sass().on('error', sass.logError))
 	.pipe(concat('style.min.css'))
 	.pipe(autoprefixer({ overridBrowserslist:['last 10 versions'], grid:true }))
 	.pipe(cleancss(( { level:{1:{specialComments:0} }, /*format:'beautify'*/ } )))
-	.pipe(dest('app/css'))
+	.pipe(dest('/min.css'))
 	.pipe(browserSync.stream())
 }
 
 function startwatch(){
-	watch('app/**/*.html').on('change', browserSync.reload);
-	watch('app/**/*.sass', styles);
-	watch(['app/**/*.js', '!app/**/*.min.js'], scripts);
-	//watch('app/images/**/*', images);
+	watch('/**/*.html').on('change', browserSync.reload);
+	watch('/**/*', styles);
+	watch(['/**/*.js', '!app/**/*.min.js'], scripts);
+	watch('img/**/*', images);
 }
 
 function images(){
-	return src('app/images/**/*')
+	return src('/img/**/*')
 	.pipe(imagemin(
 		[
 			imagemin.gifsicle({interlaced: true}),
@@ -58,26 +58,26 @@ function images(){
 			})
 		]
 	))
-	.pipe(dest('dist/images'))
+	.pipe(dest('/min.images'))
 }
 
  function build() {
 	return src([  // выбор файлов
-		'app/**/*.html',
-		'app/fonts/**/*',
-		'app/css/**/*.min.css',
-		'app/js/**/*.min.js',
-		//'app/images/**/*',
+		'/**/*.html',
+		'/fonts/**/*',
+		'/css/**/*.min.css',
+		'/js/**/*.min.js',
+		'/img/**/*',
 		], { base: 'app' }) //  сохраняю структуру проекта при копировании
-	.pipe(dest('dist')) // выгружаю в папку с финальной сборкой
+	.pipe(dest('')) // выгружаю в папку с финальной сборкой
 }
 
 //----------------------------------------------на случай чистки-----------------------------------
 function cleanimg() {
-	return del('app/images/src/**/*', { force: true }) //автономно если захочу удалить содержимое
+	return del('/img/**/*', { force: true }) //автономно если захочу удалить содержимое
  }
 function cleandist() {
-	return del('dist/**/*', { force: true }) //автономно если захочу удалить содержимое dist
+	return del('/**/*', { force: true }) //автономно если захочу удалить содержимое dist
 }
 exports.cleandist = cleandist	//автономно если захочу удалить содержимое
 exports.cleanimg = cleanimg;	//автономно если захочу удалить содержимое
