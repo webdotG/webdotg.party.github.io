@@ -8,7 +8,10 @@
 	<link rel="stylesheet" href="css/js__beginer.css">
 </head>
 <body>
-	<code>
+<main>
+	<div class="first-block">
+	<section class="beginer-example__first">
+		<code>
 		//обьявил переменную А присвоил ей значение 10
 		<br>let a = 10;
 		<br>//выполнять цикл программы пока она удовлетворяет условия
@@ -19,6 +22,8 @@
 				<br>a = a - 2;
 		<br>}
 	</code>
+	</section>
+	<section class="beginer-example__seconde">
 	<code>
 		//обьявил переменную А присвоил ей массив из 5 строчных значений
 		<br>let a = [ 'Даша', 'Аня', 'Петя', 'Маша', 'Сергей' ];
@@ -29,6 +34,8 @@
 			<br>console.log( a [3] );
 			<br>console.log( a [4] );
 	</code>
+	</section>
+	<section class="beginer-example__third">
 	<code>
 		//обьявил переменную А присвоил ей массив из 5 строчных значений
 		<br>let a = [ 'Даша', 'Аня', 'Петя', 'Маша', 'Сергей' ];
@@ -42,6 +49,8 @@
 				<br>number = number + 1;
 		<br>}
 	</code>
+	</section>
+	<section class="beginer-example__fourth">
 	<code>
 		//обьявил переменную А присвоил ей массив из 5 строчных значений
 		<br>let a = [ 'Даша', 'Аня', 'Петя', 'Маша', 'Сергей' ];
@@ -55,6 +64,8 @@
 				<br>number = number - 1;
 		<br>}
 	</code>
+	</section>
+	<section class="beginer-example__fifth">
 	<code>
 		//обьявил переменную А присвоил ей массив из 6 строчных значений
 		<br>let a = [ 'Даша', 'Аня', 'Петя', 'Маша', 'Сергей', 'не Сергей' ];
@@ -68,7 +79,9 @@
 				<br>number = number + 2;
 		<br>}
 	</code>
-	<c>
+	</section>
+	<section class="beginer-example__sixth">
+	<code>
 		//обьявил переменную ARR присвоил ей массив из 6 строчных значений
 		<br>let arr = [ "Маша","Кирилл","Петя","Дима","Маша","Даша" ] ;
 		<br>//обьявил переменную NUMBER присвоил ей значение цифру 0 cобираюсь использовать её как индекс для значения в массиве
@@ -82,6 +95,8 @@
 				<br>number = number + 2;
 		<br>}
 	</code>
+	</section>
+	<section class="beginer-example__seventh">
 	<code>
 		//обьявил переменную names присвоил ей массив из 6 строчных значений
 		<br>let names = [ "Маша","Кирилл","Петя","Дима","Маша","Даша" ] ;
@@ -97,6 +112,44 @@
 				<br>idx = idx + 2;
 		<br>}
 	</code>
+	</section>
+	<section class="beginer-example__eighth">
+		<code>
+		//обьявил переменную names присвоил ей массив из 7 строчных значений
+		<br>let names = [ "Маша","Кирилл","Петя","Дима","Маша","Даша","Мафусаил" ] ;
+		<br>//обьявил переменную idx присвоил ей значение цифру 0 
+		<br>let idx = 0 ;
+		<br>//обьявил переменную length присвоил ей значение цифру 4 
+		<br>let length = 4;
+		<br>//выполнять цикл программы пока верно условие а именно переменная idx меньще или равна length
+		<br>while ( idx <= length ){
+				<br>//выводить в консоль два значения names со значением переменной idx
+				<br>console.log( names [ idx ], names [ idx + 1 ]);
+				<br>//переменной idx присвоить значение idx + 2
+				<br>idx = idx + 2;
+		<br>}
+		</code>
+	</section>
+	<section class="beginer-example__ninth">
+		<code>
+			//обьявил переменную names присвоил ей массив из строчных значений
+	<br>let namesq= [ "z","x","c","v","b","n","m" ] ;
+	<br>//обьявил переменную idx присвоил ей значение цифру  
+	<br>let iq = 0 ;
+	<br>//обьявил переменную length присвоил ей значение цифру  
+	<br>let lengthq = 4;
+	<br>//выполнять цикл программы пока верно условие а именно переменная iq меньще или равна lengthq
+	<br>while ( iq <= lengthq ){
+  	<br>//выводить в консоль два значения namesq со значением переменной iq
+  	<br>console.log( namesq [ iq ], namesq [ iq + 1 ]);
+  	<br>//переменной iq присвоить значение iq + 2
+  	<br>iq = iq + 2;
+		<br>}
+		<br>console.log(namesq [ iq ])
+		</code>
+	</section>
+</div>
+</main>
 	<script src="js/js__beginer.js"></script>
 </body>
 </html>
