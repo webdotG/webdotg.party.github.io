@@ -6,6 +6,13 @@
 	align-items: center;
 	position: relative;
 }
+
+.slider-paginator__wrapper{
+	position: absolute;
+	bottom: -25px;
+	left: 508px;
+}
+
 .slider-list{
 	max-width: 850px;
 	width: 100%;
@@ -17,6 +24,14 @@
 	margin: 0 auto;
 }
 
+.slider-paginator{
+	width: 12px;
+	height: 12px;
+	margin-right: 7px;
+	border: 2px solid black;
+	border-radius: 4px;
+	background-color: transparent;
+}
 #slider-button__prev{
 	bottom: 173px;
 	left: 425px;
