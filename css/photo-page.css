@@ -30,3 +30,10 @@ footer{
 .main-nav__link{
 	color: white;
 }
+
+.github__link{
+	width: 32px;
+	height: 32px;
+	background-color: white;
+	border-radius: 50%;
+}
