@@ -31,6 +31,7 @@
 	border: 3px solid black;
 	border-radius: 4px;
 	background-color: white;
+	display: none;
 }
 
 .slider-paginator--active{
@@ -38,8 +39,8 @@
 }
 
 #slider-button__prev{
-	bottom: 150px;
-	left: 425px;
+  bottom: -60px;
+	left: 85px;
 	position: absolute;
 	height: 62px;
 	width: 60px;
@@ -49,8 +50,8 @@
 }
 
 #slider-button__next{
-	bottom: 150px;
-	right: 425px;
+	bottom: -60px;
+	right: 85px;
 	position: absolute;
 	height: 62px;
 	width: 60px;
@@ -68,3 +69,13 @@
 	border-radius: 15px;
 }
 
+@media (min-width:640px) {
+
+	#slider-button__next{
+		right: 141px;
+	}
+	#slider-button__prev{
+		left: 141px;
+	}
+
+}
