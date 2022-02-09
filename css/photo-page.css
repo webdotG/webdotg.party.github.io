@@ -1,12 +1,12 @@
 .container {
-  max-width: 1024px;
-  margin: 0 auto;
+	padding-left: 25px;
+	padding-right: 25px;
   display: flex;
   flex-wrap: wrap;
 }
 .img-holder {
   flex-grow:1;
-  margin: .2rem;
+  margin: .3rem;
   overflow: hidden;
 } 
 
@@ -23,7 +23,8 @@
 }
 
 header,
-main{
+main,
+footer{
 	background-color: black;
 }
 .main-nav__link{
