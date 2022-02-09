@@ -21,3 +21,11 @@
 .img-holder img:hover {
   transform: scale(1.1);
 }
+
+header,
+main{
+	background-color: black;
+}
+.main-nav__link{
+	color: white;
+}
