@@ -30,6 +30,13 @@ footer{
 .main-nav__link{
 	color: white;
 }
+.main-nav__item:first-child::after,
+.main-nav__item:nth-child(2)::after,
+.main-nav__item:nth-child(3)::after,
+.main-nav__item:nth-child(4)::after,
+.main-nav__item--active-photo::before{
+	background-color: white;
+}
 
 .github__link{
 	width: 32px;
