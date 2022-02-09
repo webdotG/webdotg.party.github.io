@@ -34,6 +34,7 @@
 		right: 0px;
 		text-align: center;
 		color: white;
+		border-radius: 10px;
 	}
   
 	.pornhub__alert--show h4{
@@ -52,6 +53,8 @@
 		width: 45px;
 		height: 35px;
 		margin-top: 10px;
+		border: transparent;
+		border-radius: 7px;
 	}
 
 	.pornhub__button--yes{
@@ -72,6 +75,7 @@
 		left: 0px;
 		text-align: center;
 		color: white;
+		border-radius: 10px;
 	}
 
 	.onlyfans__alert--show h4{
@@ -90,6 +94,8 @@
 		width: 45px;
 		height: 35px;
 		margin-top: 10px;
+		border: transparent;
+		border-radius: 7px;
 	}
 
 	.onlyfans__button--yes{
