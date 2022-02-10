@@ -63,11 +63,11 @@
 	height: 21px;
 	left: 118px;
 	top: 0px;
-	background-image: url(../v2__img/icon__checkbox--off.svg);
+	background-image: url(../img/icon__checkbox--off.svg);
 }
 
 .check__input:checked + .check__box{
-	background-image: url(../v2__img/icon__checkbox.svg);
+	background-image: url(../img/icon__checkbox.svg);
 }
 
 .restore{
@@ -183,4 +183,8 @@
 
 .display--none{
 	display: none;
+}
+
+.display--block{
+	display: block;
 }
