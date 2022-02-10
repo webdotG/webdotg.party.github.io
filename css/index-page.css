@@ -22,7 +22,7 @@
 		background-color: black;
 		position: absolute;
 		left: 30%;
-		bottom: 3px;
+		bottom: -7px;
 	}
 
 	.page-list__link{
@@ -35,7 +35,7 @@
 	}
 
 	.page-list__link--web{
-		padding-top: 100px;
+		padding-top: 85px;
 		background-image: url(../img/icon__web--64px.png);
 		background-position-x: center;
 		background-position-y: 0;
@@ -50,7 +50,7 @@
 }
 
 	.page-list__link--photo{
-		padding-top: 100px;
+		padding-top: 85px;
 		background-image: url(../img/icon__photocamera--64px.png);
 		background-position-x: center;
 		background-position-y: 0;
@@ -65,7 +65,7 @@
 }
 
 	.page-list__link--sandbox{
-		padding-top: 100px;
+		padding-top: 85px;
 		background-image: url(../img/icon__sandbox--64px.png);
 		background-position-x: center;
 		background-position-y: 0;
@@ -80,7 +80,7 @@
 	}
 
 	.page-list__link--advice{
-		padding-top: 100px;
+		padding-top: 85px;
 		background-image: url(../img/icon__advice--64px.png);
 		background-position-x: center;
 		background-position-y: 0;
@@ -110,7 +110,7 @@
 	}
 
 	.social-list{
-		padding-top: 35px;
+		padding-top: 40px;
 	}
 
 }
