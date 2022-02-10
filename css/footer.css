@@ -27,10 +27,10 @@
 	.pornhub__alert--show{
 		display: block;
 		position: absolute;
-		width: 248px;
-		height: 125px;
-		background-color: rgba(0, 0, 0, 0.7);
-		top: -125px;
+		width: 133px;
+		height: 103px;
+		background-color: rgba(0, 0, 0, 0.87);
+		top: -104px;
 		right: 0px;
 		text-align: center;
 		color: white;
@@ -39,8 +39,8 @@
   
 	.pornhub__alert--show h4{
 		text-align: center;
-		margin-top: 10px;
-		margin-bottom: 10px;
+		margin-top: 5px;
+		margin-bottom: -1px;
 	}
 
 	.pornhub__alert--show p{
@@ -58,7 +58,7 @@
 	}
 
 	.pornhub__button--yes{
-		margin-right: 65px;
+		margin-right: 22px;
 	}
 
 	.onlyfans__alert--none{
@@ -68,10 +68,10 @@
 	.onlyfans__alert--show{
 		display: block;
 		position: absolute;
-		width: 240px;
-		height: 125px;
-		background-color: rgba(0, 0, 0, 0.7);
-		top: -125px;
+		width: 133px;
+		height: 103px;
+		background-color: rgba(0, 0, 0, 0.87);
+		top: -104px;
 		left: 0px;
 		text-align: center;
 		color: white;
@@ -80,8 +80,8 @@
 
 	.onlyfans__alert--show h4{
 		text-align: center;
-		margin-top: 10px;
-		margin-bottom: 10px;
+		margin-top: 5px;
+		margin-bottom: -1px;
 	}
 
 	.onlyfans__alert--show p{
@@ -99,7 +99,7 @@
 	}
 
 	.onlyfans__button--yes{
-		margin-right: 65px;
+		margin-right: 22px;
 	}
 
 }
