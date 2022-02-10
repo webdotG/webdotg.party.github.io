@@ -104,11 +104,14 @@
 		text-align: center;
 	}
 	.post-example{
-		width: 300px;
+		width: 252px;
 		min-height: 100px;
 		margin: 0 auto;
+		padding-top: 15px;
+		padding-bottom: 15px;
 		margin-bottom: 15px;
-		border: 3px dotted black;
+		border-top:  3px dotted black;
+		border-bottom: 3px dotted black;
 	}
 
 
@@ -131,10 +134,7 @@
 	}
 	
 	.idea-content__wrapper{
-		padding-left: 15px;
-		padding-right: 15px;
 		padding-bottom: 15px;
-		width: 270px;
 	}
 	.idea-content__title{
 		margin: 0;
@@ -146,6 +146,7 @@
 		margin: 0;
 		padding-top: 10px;
 		padding-bottom: 10px;
+		line-height: 23px;
 	}
 
 	/*.idea-content__read-more{
