@@ -22,12 +22,16 @@
   transform: scale(1.1);
 }
 
+
 header,
 main,
 footer{
 	background-color: black;
 }
 
+main{
+	padding-top: 25px;
+}
 .main-nav{
 	margin-top: 10px;
 	margin-bottom: 10px;
