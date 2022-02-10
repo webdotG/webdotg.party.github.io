@@ -172,8 +172,15 @@
 	.page-list__link--advice{
 		padding-top: 75px;
 	}		
-	
+
+	#slider-button__prev{
+		left: 240px;
 	}
+	#slider-button__next{
+		right: 240px;
+	}
+	
+}
 	
 
 	

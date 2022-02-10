@@ -79,3 +79,26 @@
 	}
 
 }
+
+@media (min-width:960px) {
+
+	#slider-button__next{
+		right: 240px;
+	}
+	#slider-button__prev{
+		left: 240px;
+	}
+
+}
+
+@media (min-width:1200px) {
+
+	#slider-button__next{
+		right: 245px;
+	}
+	#slider-button__prev{
+		left: 272px;
+	}
+
+
+}	
