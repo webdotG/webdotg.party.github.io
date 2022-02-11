@@ -1,5 +1,9 @@
 @media (min-width:320px){
 	
+	body{
+		min-height: 115vh;
+	}
+
 /*modal form*/
 .form-registr__wrapper{
 	width: 260px;
